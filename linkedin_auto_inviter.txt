@@ -42,7 +42,6 @@
 
 	var position = button.parentNode.parentNode.children[2].textContent;
 	var formatedPosition = position.replace(/^\s\s*/, '').replace(/\s\s*$/, '').toLowerCase();
-	console.log(formatedPosition);
 
 	var stringExists = false;
 
